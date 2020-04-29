@@ -1,0 +1,78 @@
+/* style for main container */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, #8e0e00, #1f1c18);
+}
+
+.container {
+    font-family: cursive;
+    margin: 100px auto;
+    background-color: rgb(121, 148, 185);
+    width: 50%;
+    height: 300px;
+    border: #a08767 1px solid;
+    border-radius: 10px;
+}
+
+.container h2 {
+    margin-bottom: 70px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(158, 93, 93);
+}
+
+.container input {
+    text-align: center;
+    height: 30px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.convert-FROM {
+    padding-left: 0;
+    margin-right: 0;
+}
+
+.conversion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conversion p {
+    color: white;
+}
+
+.conversion-type {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.conversion-type p {
+    color: white;
+}
+
+.conversion-type select {
+    width: 130px;
+    height: 30px;
+}
+
+.formula-Box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #f5f5f5;
+}
+
+.formulaSymbol {
+    background-color: #9acd32;
+    border-radius: 3px;
+    width: 75px;
+    text-align: center;
+}
